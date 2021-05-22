@@ -14,12 +14,15 @@ Open a terminal in the client directory and run the following commands.
 > adding parties
 
 node sendRequest.js "{"action":"addParty", "partyId":"A"}"
+
 node sendRequest.js "{"action":"addParty", "partyId":"B"}"
 
 > adding voters
 
 node sendRequest.js "{"action":"addVoter", "voterId":"1"}"
+
 node sendRequest.js "{"action":"addVoter", "voterId":"2"}"
+
 node sendRequest.js "{"action":"addVoter", "voterId":"3"}"
 
 > voting from id 1 to party A
